@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User</title>
+
+    <!-- link icon -->
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+
+    <!-- Css Bootstrap 4 beta -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Fonts Google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body> 
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.svg" width="30" height="30" alt="" class="d-inline-block align-top">Admin Laravel
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="material-icons d-inline-block align-top">&#xE01D;</i>Dashboard <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons d-inline-block align-top">&#xE7FD;</i> User
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="index.html"><i class="material-icons d-inline-block align-top">&#xE7FB;</i> List User</a>
+                              <a class="dropdown-item" href="add_user.html"><i class="material-icons d-inline-block align-top">&#xE7F0;</i> Add User</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="dropdown mr-4">
+                        <a href="#" class="btn btn-outline-danger dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">Lê Tấn Phát</a>   
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="edit_user.html"><i class="material-icons">&#xE869;</i> Settings</a>
+                                <a class="dropdown-item" href="login.html"><i class="material-icons">&#xE8E4;</i> Logout</a>
+                        </div> 
+                    </div>
+            </div>
+        </nav>
+        <div class="content container mr-auto mt-4">
+                <h1 class="text-center mb-2 p-2 text-danger bg-dark">LIST USER</h1>
+            <div class="khung">
+                <table class="table table-striped table-hover table-bordered">
+                    <thead class="thead-inverse">
+                        <tr>
+                        <th>STT</th>
+                        <th>Name</th>
+                        <th>Job Title</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>1</td>
+                        <td>Lê Tấn Phát</td>
+                        <td>Admin</td>
+                        <td>Admin@localhost.com</td>
+                        <td>
+                            <a href="#"><i class="material-icons">&#xE869;</i></a>
+                            <a href="#"><i class="material-icons">&#xE888;</i></a>
+                        </td>
+                        </tr>
+                    </tbody>
+                </table> 
+                <div class="page">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                        <a class="page-link" href="#">&laquo;</a>
+                        </li>
+                        <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">&raquo;</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div> 
+    </div>
+</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>
